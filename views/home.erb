@@ -14,6 +14,9 @@
       <h2>How about...</h2>
       <div class="what-to-do">
         <%= idea %>
+        <% @catpics.each do |cat| %>
+          <img src="<%= cat.url %>" alt="Cat pic">
+        <% end %>
       </div>
       <button type="reset" name="new-idea">Nah...</button>
     </main>

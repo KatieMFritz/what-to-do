@@ -1,9 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    cat_api (0.1.0)
+      nokogiri (~> 1.6.5)
+      rest-client (~> 1.7.2)
+    ffi (1.9.10-x86-mingw32)
+    mime-types (2.99)
+    mini_portile2 (2.0.0)
+    netrc (0.11.0)
+    nokogiri (1.6.7.1-x86-mingw32)
+      mini_portile2 (~> 2.0.0.rc2)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rest-client (1.7.3-x86-mingw32)
+      ffi (~> 1.9)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -14,6 +27,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  cat_api
   sinatra (~> 1.4.6)
 
 BUNDLED WITH

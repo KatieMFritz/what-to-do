@@ -35,20 +35,18 @@ main {
 }
 
 .what-to-do {
-  padding: 100px 50px;
-  margin: 50px 0px;
+  padding: 50px;
+  margin: 20px 0px;
   background-color: #ebebeb;
   font-size: 150%;
   font-weight: bold;
   text-align: center;
 }
 
-footer {
-  padding: 20px;
-  bottom: 0;
-  position: fixed;
-  text-align: center;
-  font-style: italic;
+img {
+  display: block;
+  max-width: 300px;
+  margin-top: 20px;
 }
 
 button {
@@ -62,4 +60,12 @@ button {
 
 button:hover {
   background-color: #ccc;
+}
+
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
 }

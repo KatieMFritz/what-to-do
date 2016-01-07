@@ -1,7 +1,9 @@
 require 'sinatra'
+require 'cat_api'
 
 class WhatShouldIDo < Sinatra::Base
   get '/' do
+    @catpics = CatAPI.new.get_images(results_per_page: 1)
     erb :home
   end
 
