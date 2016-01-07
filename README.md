@@ -1,3 +1,3 @@
-# Random Redirect
+# What Should I Do
 
-Simple Sinatra app that randomly redirects visitors to a URL from your list. Originally developed for sending user testers to different versions of a test.
+Helps me figure out what to do in a given evening.
