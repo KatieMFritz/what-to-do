@@ -45,8 +45,9 @@ main {
 
 img {
   display: block;
-  max-width: 300px;
-  margin-top: 20px;
+  max-width: 50%;
+  margin: 20px auto;
+  text-align: center;
 }
 
 button {
@@ -56,15 +57,15 @@ button {
   font-weight: bold;
   border-radius: 10px;
   -webkit-border-radius: 10px;
+  float: right;
 }
 
 button:hover {
   background-color: #ccc;
 }
 
-
-
 footer {
+  margin-top: 50px;
   padding: 20px;
   text-align: center;
   font-style: italic;
