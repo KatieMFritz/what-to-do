@@ -50,3 +50,16 @@ footer {
   text-align: center;
   font-style: italic;
 }
+
+button {
+  padding: 10px 20px;
+  background-color: #ebebeb;
+  border: 2px solid #555;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
