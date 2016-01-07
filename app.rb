@@ -8,7 +8,18 @@ class WhatShouldIDo < Sinatra::Base
   helpers do
 
     def idea
-      ['Idea 1', 'Idea 2', 'Idea 3'].sample
+      ['Clean the kitchen',
+        'Crochet',
+        'Code',
+        'Read a book',
+        'Do yoga',
+        'Watch a movie',
+        'Organization project',
+        'Do laundry',
+        'Catch up on work reading',
+        'Play a game'
+      ]
+      .sample
     end
 
     def current_year

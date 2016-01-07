@@ -35,10 +35,12 @@ main {
 }
 
 .what-to-do {
-  padding: 50px;
+  padding: 100px 50px;
   margin: 50px 0px;
-  min-height: 200px;
   background-color: #ebebeb;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
 }
 
 footer {
